@@ -38,6 +38,7 @@ namespace BookListMVC.Controllers
             }
             return View(Book);
         }
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert()
